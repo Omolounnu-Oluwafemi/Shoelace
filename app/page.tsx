@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client'
 import { useState } from 'react'
 import Link from 'next/link'
@@ -25,12 +26,12 @@ interface FormData {
 }
 
 const products: Product[] = [
-  { id: 1, name: 'Casual Designs', image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop', tag: 'Everyday Style' },
-  { id: 2, name: 'Formal Wear', image: 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=500&h=500&fit=crop', tag: 'Professional' },
+  { id: 1, name: 'Casual Designs', image: 'https://res.cloudinary.com/difjhrlqi/image/upload/v1769073084/Screenshot_2026-01-22_at_09.55.07_xd0akv.png', tag: 'Everyday Style' },
+  { id: 2, name: 'Formal Wear', image: 'https://res.cloudinary.com/difjhrlqi/image/upload/v1769073084/Screenshot_2026-01-22_at_09.55.45_mvlcp5.png', tag: 'Professional' },
   { id: 3, name: 'Athletic Shoes', image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop', tag: 'Performance' },
-  { id: 4, name: 'Custom Orders', image: 'https://images.unsplash.com/photo-1533487531602-7f990ea4dfe6?w=500&h=500&fit=crop', tag: 'Bespoke' },
-  { id: 5, name: 'Premium Leather', image: 'https://images.unsplash.com/photo-1548693505-c2a7f40a5b16?w=500&h=500&fit=crop', tag: 'Luxury' },
-  { id: 6, name: 'Bulk Supply', image: 'https://images.unsplash.com/photo-1609709228675-ce33ca30b518?w=500&h=500&fit=crop', tag: 'Wholesale' }
+  { id: 4, name: 'Custom Orders', image: 'https://res.cloudinary.com/difjhrlqi/image/upload/v1769073084/Screenshot_2026-01-22_at_09.56.04_oitfol.png', tag: 'Bespoke' },
+  { id: 5, name: 'Premium Leather', image: 'https://res.cloudinary.com/difjhrlqi/image/upload/v1769073084/Screenshot_2026-01-22_at_09.55.45_mvlcp5.png', tag: 'Luxury' },
+  { id: 6, name: 'Bulk Supply', image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop', tag: 'Wholesale' }
 ]
 
 const testimonials: Testimonial[] = [
@@ -172,11 +173,11 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-32 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white px-4">
+      <section className="py-32 bg-linear-to-r from-gray-900 via-gray-800 to-gray-900 text-white px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-5xl font-black mb-8">Ready to Partner With Us?</h2>
           <p className="text-xl text-gray-300 mb-12">Discover why 500+ retailers trust Shoelace Concepts for quality footwear</p>
-          <Link href="/contact" className="inline-block px-10 py-5 bg-gradient-to-r from-yellow-500 to-amber-500 text-white font-bold rounded-xl hover:shadow-xl transition transform hover:scale-105">
+          <Link href="/contact" className="inline-block px-10 py-5 bg-linear-to-r from-yellow-500 to-amber-500 text-white font-bold rounded-xl hover:shadow-xl transition transform hover:scale-105">
             Get In Touch Today
           </Link>
         </div>

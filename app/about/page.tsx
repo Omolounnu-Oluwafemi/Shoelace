@@ -11,7 +11,7 @@ export default function About() {
   
             <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
               <img
-                src="https://images.unsplash.com/photo-1488898657744-c6f4d8e60b08?w=600&h=500&fit=crop"
+                src="https://res.cloudinary.com/difjhrlqi/image/upload/v1769073084/Screenshot_2026-01-22_at_09.55.45_mvlcp5.png"
                 alt="Factory"
                 className="rounded-3xl shadow-2xl w-full h-96 object-cover"
               />

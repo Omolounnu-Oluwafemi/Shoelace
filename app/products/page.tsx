@@ -10,11 +10,11 @@ interface Product {
   export default function Products() {
     const products: Product[] = [
       { id: 1, name: 'Casual Designs', image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop', tag: 'Everyday Style', desc: 'Perfect for daily wear and comfort' },
-      { id: 2, name: 'Formal Wear', image: 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=500&h=500&fit=crop', tag: 'Professional', desc: 'Elegant shoes for business occasions' },
+      { id: 2, name: 'Formal Wear', image: 'https://res.cloudinary.com/difjhrlqi/image/upload/v1769073084/Screenshot_2026-01-22_at_09.56.04_oitfol.png', tag: 'Professional', desc: 'Elegant shoes for business occasions' },
       { id: 3, name: 'Athletic Shoes', image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop', tag: 'Performance', desc: 'High-performance athletic footwear' },
-      { id: 4, name: 'Custom Orders', image: 'https://images.unsplash.com/photo-1533487531602-7f990ea4dfe6?w=500&h=500&fit=crop', tag: 'Bespoke', desc: 'Tailored to your exact specifications' },
-      { id: 5, name: 'Premium Leather', image: 'https://images.unsplash.com/photo-1548693505-c2a7f40a5b16?w=500&h=500&fit=crop', tag: 'Luxury', desc: 'Premium leather craftsmanship' },
-      { id: 6, name: 'Bulk Supply', image: 'https://images.unsplash.com/photo-1609709228675-ce33ca30b518?w=500&h=500&fit=crop', tag: 'Wholesale', desc: 'Wholesale solutions for retailers' }
+      { id: 4, name: 'Custom Orders', image: 'https://res.cloudinary.com/difjhrlqi/image/upload/v1769073084/Screenshot_2026-01-22_at_09.55.45_mvlcp5.png', tag: 'Bespoke', desc: 'Tailored to your exact specifications' },
+      { id: 5, name: 'Premium Leather', image: 'https://res.cloudinary.com/difjhrlqi/image/upload/v1769073084/Screenshot_2026-01-22_at_09.55.07_xd0akv.png', tag: 'Luxury', desc: 'Premium leather craftsmanship' },
+      { id: 6, name: 'Bulk Supply', image: 'https://res.cloudinary.com/difjhrlqi/image/upload/v1769073084/Screenshot_2026-01-22_at_09.56.04_oitfol.png', tag: 'Wholesale', desc: 'Wholesale solutions for retailers' }
     ]
   
     return (
